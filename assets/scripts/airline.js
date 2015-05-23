@@ -13,6 +13,12 @@ function airline_init() {
   airline_load("ACA");
   airline_load("KLM");
   airline_load("KLC");
+  airline_load("GLO");
+  airline_load("TAM");
+  airline_load("AVA");
+  airline_load("AZU");
+  airline_load("EMBRAER");
+  airline_load("FDX");
 }
 
 function airline_load(icao) {
